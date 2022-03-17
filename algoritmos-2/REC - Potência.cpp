@@ -1,18 +1,5 @@
-#include <iomanip>
 #include <iostream>
-#include <vector>
-#include <cmath>
 using namespace std;
-
-
-int batata(int, int);
-
-
-int main() {
-    int a, n;
-    cin >> a >> n;
-    cout << batata(a, n) << endl;
-}
 
 
 int batata(int a, int n){   //a^n
@@ -22,4 +9,11 @@ int batata(int a, int n){   //a^n
     else{
         return 1;
     }
+}
+
+
+int main() {
+    int a, n;
+    cin >> a >> n;
+    cout << batata(a, n) << endl;
 }
